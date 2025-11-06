@@ -5,12 +5,12 @@ import numpy as np
 # --- Step 1: Raw integer scores (approximate original table 0-10) ---
 raw_data = {
     'Champion': ['Jinx', 'Ashe', 'Tristana', 'Caitlyn', 'Ziggs', 'Vayne', 'Varus', 'Sivir', 'Kaisa', 'Miss Fortune'],
-    'Blind Pick': [7, 9, 5, 6, 8, 1, 6, 4, 3, 6],
+    'Blind Pick': [8, 9, 5, 6, 8, 1, 6, 4, 3, 6],
     'Tank Shred': [6, 5, 5, 4, 7, 10, 8, 3, 7, 4],
     'Burst Damage': [3, 2, 7, 8, 6, 3, 8, 2, 7, 10],
-    'Self Peel': [2, 6, 7, 5, 6, 9, 2, 8, 9, 3],
+    'Self Peel': [4, 6, 7, 5, 6, 9, 2, 8, 9, 3],
     'Teamfight': [10, 6, 5, 6, 8, 3, 7, 6, 3, 9],
-    'Skirmish': [4, 7, 8, 4, 6, 9, 6, 2, 10, 3],
+    'Skirmish': [5, 7, 8, 4, 6, 9, 6, 2, 10, 3],
     'Carry Potential': [9, 5, 7, 6, 6, 4, 5, 3, 5, 6],
     'Utility': [3, 10, 4, 5, 8, 3, 7, 3, 1, 5],
     'Wave Clear': [8, 4, 6, 5, 7, 1, 7, 9, 4, 4],
